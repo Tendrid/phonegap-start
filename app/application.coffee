@@ -11,7 +11,6 @@ Application =
 
   initialize: ->
     @bindEvents()
-    alert('custom!')
     return
 
   

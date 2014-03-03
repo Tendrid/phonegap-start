@@ -98,7 +98,6 @@ window.require.register("application", function(exports, require, module) {
     },
     initialize: function() {
       this.bindEvents();
-      alert('custom!');
     },
     bindEvents: function() {
       document.addEventListener("deviceready", this.onDeviceReady, false);
