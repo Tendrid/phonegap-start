@@ -14,7 +14,7 @@ exports.config =
       joinTo:
         '../www/css/app.css': /^(app|vendor)/
       order:
-        before: []
+        before: ['vendor/scripts/jquery.mobile-1.4.2.min.js']
         after: []
 
     templates:
